@@ -14,11 +14,11 @@ Automattic e la community di Beeper hanno tradotto quasi l'intera app su **GlotP
 Anche impostando la lingua dell'app su **"System"** su un Mac in italiano, Beeper non trova l'italiano nella whitelist interna e forza il ripristino dell'interfaccia in inglese.
 
 ## 💡 La soluzione
-Questo script (scritto in **puro Python 3, senza bisogno di Node, npm o asar**):
+Questo script (scritto in **puro Python 3**):
 1. **Estrae in memoria** il bundle `app.asar` di Beeper Desktop.
 2. **Inietta il dizionario ufficiale di traduzione** in italiano (estratto direttamente da GlotPress + rifiniture per le impostazioni e menu di Beeper).
 3. **Abilita `it` nella whitelist** dei renderer (`nn`), rendendo selezionabile la voce **Italiano** in *Settings > General > App language*.
-4. **Ricompila e firma** l'applicazione tramite `codesign` ad-hoc di macOS per prevenire crash all'avvio.
+4. **Ricompila e firma** l'applicazione tramite `codesign` ad-hoc di macOS.
 5. **Crea un backup automatico** (`app.asar.bak`) per permettere il ripristino in qualsiasi momento con un solo comando.
 
 ---
