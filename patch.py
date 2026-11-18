@@ -20,12 +20,12 @@ import platform
 GLOTPRESS_URL = "https://translate.wordpress.com/projects/beeper/desktop/it/default/export-translations?format=jed1x"
 
 
-def log(msg, symbol="ℹ️"):
-    print(f"{symbol} {msg}")
+def log(msg, prefix="[INFO]"):
+    print(f"{prefix} {msg}")
 
 
 def error(msg):
-    print(f"❌ Errore: {msg}", file=sys.stderr)
+    print(f"[ERRORE] {msg}", file=sys.stderr)
     sys.exit(1)
 
 
@@ -192,7 +192,7 @@ def load_translations(script_dir):
                 log(f"Caricamento traduzioni dal file locale: {local_file}")
                 return json.load(f)
         except Exception as e:
-            log(f"Impossibile leggere file locale: {e}, provo con il download...", "⚠️")
+            log(f"Impossibile leggere file locale: {e}, avvio download...", prefix="[WARN]")
 
     log("Scaricamento delle traduzioni ufficiali da GlotPress (WordPress.com)...")
     req = urllib.request.Request(GLOTPRESS_URL, headers={"User-Agent": "Mozilla/5.0"})
@@ -245,7 +245,7 @@ def apply_patch(custom_path=None, revert=False):
         shutil.copy2(bak_path, asar_path)
         if get_platform() == "mac" and app_bundle:
             subprocess.run(["codesign", "--force", "--deep", "--sign", "-", app_bundle], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        log("Ripristino completato con successo!", "✓")
+        log("Ripristino completato con successo.", prefix="[OK]")
         return
 
     # Crea backup se non esiste
@@ -322,8 +322,8 @@ def apply_patch(custom_path=None, revert=False):
         except Exception:
             pass
 
-    log("Patch completata con successo!", "🎉")
-    log("Ora puoi riaprire Beeper Desktop: l'italiano è attivo sia come lingua di sistema che nel selettore Impostazioni > Generale.")
+    log("Patch completata con successo.", prefix="[OK]")
+    log("Riavvia Beeper Desktop per applicare la lingua italiana.")
 
 
 def main():

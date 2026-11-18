@@ -1,52 +1,49 @@
-# 🇮🇹 Beeper Desktop — Interfaccia in Italiano (UI Localization)
+# Beeper Desktop — Interfaccia in Italiano
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Platform: macOS | Windows | Linux](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey.svg)]()
-[![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero%20(Pure%20Python%203)-success.svg)]()
 
-Un patcher automatico, multipiattaforma e leggero per abilitare la **lingua italiana nell'interfaccia di Beeper Desktop** su **macOS, Windows e Linux**.
-
----
-
-## 🧐 Il problema
-Automattic e la community di Beeper hanno tradotto quasi l'intera app su **GlotPress** (la piattaforma di localizzazione di WordPress.com). Tuttavia, nel bundle JavaScript di Beeper Desktop (`app.asar`) la lista delle lingue attive nella UI è al momento ristretta a sole 5 lingue (`de`, `es`, `fr`, `ja`, `pt-BR`).
-
-Anche impostando la lingua dell'app su **"System"** su un sistema operativo in italiano, Beeper non trova l'italiano nella whitelist interna e forza il ripristino dell'interfaccia in inglese.
-
-## 💡 La soluzione
-Questo script (scritto in **puro Python 3, senza bisogno di Node, npm o asar**):
-1. **Rileva automaticamente** la directory di installazione di Beeper su macOS, Windows e Linux.
-2. **Estrae in memoria** il bundle `app.asar`.
-3. **Inietta il dizionario ufficiale di traduzione** in italiano (estratto direttamente da GlotPress + rifiniture per le impostazioni e i menu di Beeper).
-4. **Abilita `it` nella whitelist** interna dei renderer, rendendo selezionabile la voce **Italiano** in *Settings > General > App language*.
-5. **Ricompila il bundle** e rinnova la firma `codesign` ad-hoc (su macOS) per garantire un avvio privo di errori.
-6. **Crea un backup automatico** (`app.asar.bak`) per permettere il ripristino istantaneo in qualsiasi momento.
+Patcher per abilitare la lingua italiana nell'interfaccia di Beeper Desktop su macOS, Windows e Linux.
 
 ---
 
-## 🚀 Installazione Rapida (One-Liner)
+## Il problema
+Beeper Desktop include traduzioni per diverse lingue, ma nel bundle JavaScript (`app.asar`) la lista delle lingue attive nella UI è limitata a sole 5 lingue (`de`, `es`, `fr`, `ja`, `pt-BR`).
 
-### 🍏 macOS & 🐧 Linux
-Apri il Terminale e incolla:
+Anche impostando la lingua del sistema operativo su italiano, Beeper non trova il locale nella whitelist interna e forza il ripristino dell'interfaccia in inglese.
+
+## Funzionamento
+Lo script (Python 3):
+1. Rileva automaticamente la directory di installazione di Beeper su macOS, Windows e Linux.
+2. Estrae il bundle `app.asar`.
+3. Inietta il dizionario di traduzione in italiano (estratto da GlotPress con le chiavi d'interfaccia per impostazioni e menu).
+4. Aggiunge `it` alla whitelist interna, rendendo selezionabile la voce **Italiano** in *Settings > General > App language*.
+5. Ricompila il bundle e rinnova la firma ad-hoc con `codesign` (su macOS).
+6. Crea un backup automatico (`app.asar.bak`) per consentire il ripristino.
+
+---
+
+## Installazione rapida
+
+### macOS e Linux
+Esegui nel terminale:
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/PizzaRevolutions/beeper-desktop-italian/main/install.sh)
 ```
 
-### 🪟 Windows
-Apri **PowerShell** e incolla:
+### Windows
+Esegui in PowerShell:
 
 ```powershell
 irm https://raw.githubusercontent.com/PizzaRevolutions/beeper-desktop-italian/main/install.ps1 | iex
 ```
 
-Al termine dell'esecuzione, riapri **Beeper Desktop**: l'interfaccia sarà direttamente in italiano e troverai la voce *Italiano* in **Impostazioni > Generale**.
+Al termine, riavvia Beeper Desktop.
 
 ---
 
-## 🛠️ Installazione Manuale (Qualsiasi OS)
-
-Se preferisci clonare ed eseguire lo script manualmente:
+## Installazione manuale
 
 ```bash
 # 1. Clona il repository
@@ -57,34 +54,32 @@ cd beeper-desktop-italian
 python3 patch.py    # su Windows: python patch.py
 ```
 
-### Parametri opzionali:
-- Se hai Beeper installato in una directory non standard:
-  ```bash
-  python3 patch.py --app-path "/percorso/personalizzato/beeper"
-  ```
-  *(Su Linux se installato a livello di sistema in `/opt/Beeper`, potrebbe essere necessario eseguire con `sudo`).*
+### Parametri opzionali
+Se Beeper è installato in un percorso personalizzato:
+```bash
+python3 patch.py --app-path "/percorso/personalizzato/beeper"
+```
 
 ---
 
-## ↩️ Come disinstallare / Ripristinare l'originale
+## Disinstallazione
 
-Se desideri rimuovere la patch e ripristinare il file originale di Beeper:
+Per ripristinare il file originale dal backup:
 
 ```bash
 python3 patch.py --revert
 ```
 
-Lo script ripristinerà istantaneamente il file `app.asar.bak` e la firma originale.
+Lo script ripristina il file `app.asar.bak` e la firma originale.
 
 ---
 
-## 🛡️ Compatibilità e Sicurezza
-- **Zero dipendenze esterne:** utilizza esclusivamente la libreria standard di Python 3.
-- **Multipiattaforma:** supporta macOS (Apple Silicon & Intel), Windows 10/11 e distribuzioni Linux (Deb, RPM, Arch, ecc.).
-- **Nessuna modifica ai dati personali:** la patch tocca unicamente le risorse di visualizzazione dell'app (`app.asar`), senza modificare database di messaggi, credenziali o token.
+## Note
+- Utilizza esclusivamente la libreria standard di Python 3.
+- Non modifica credenziali, token o cronologia messaggi: la modifica interessa unicamente le risorse grafiche dell'interfaccia (`app.asar`).
 
 ---
 
-## 🤝 Riconoscimenti & Licenza
-- Progetto rilasciato con licenza [MIT](LICENSE).
-- Traduzioni originali estratte dal progetto comunitario [Beeper Desktop su GlotPress](https://translate.wordpress.com/projects/beeper/desktop/it/default/) (Automattic / WordPress.com).
+## Licenza
+- Rilasciato sotto licenza [MIT](LICENSE).
+- Traduzioni basate sul progetto comunitario [Beeper Desktop su GlotPress](https://translate.wordpress.com/projects/beeper/desktop/it/default/).
