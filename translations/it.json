@@ -1,0 +1,1296 @@
+{
+  "": {
+    "domain": "beeper-desktop",
+    "lang": "it",
+    "plural-forms": "nplurals=2; plural=(n != 1);"
+  },
+  "Yearly": [
+    "Annuale"
+  ],
+  "Save %s": [
+    "Salva %s"
+  ],
+  "Plan": [
+    "Piano"
+  ],
+  "More": [
+    "Altro"
+  ],
+  "Monthly": [
+    "Mensile"
+  ],
+  "%s/year": [
+    "%s all'anno"
+  ],
+  "%s/month": [
+    "%s al mese"
+  ],
+  "%1$d of %2$d": [
+    "%1$d di %2$d"
+  ],
+  "No background": [
+    "Nessuno sfondo"
+  ],
+  "Customize": [
+    "Personalizza"
+  ],
+  "Button color": [
+    "Colore del pulsante"
+  ],
+  "Background": [
+    "Sfondo"
+  ],
+  "Remove %s?": [
+    "Rimuovi %s"
+  ],
+  "Recent": [
+    "Recente"
+  ],
+  "Mentions": [
+    "Riferimenti"
+  ],
+  "Installed": [
+    "Installato!"
+  ],
+  "How It Works": [
+    "Come funziona"
+  ],
+  "Next": [
+    "Prossimo"
+  ],
+  "Check your connection and try again.": [
+    "Controlla la connessione e riprova."
+  ],
+  "Unpublish": [
+    "Converti in bozza"
+  ],
+  "Something went wrong. Please try again.": [
+    "Qualcosa è andato storto, riprova!"
+  ],
+  "Publish": [
+    "Pubblica"
+  ],
+  "Live": [
+    "Live"
+  ],
+  "Account not found": [
+    "Account non trovato"
+  ],
+  "Edit Schedule": [
+    "Modifica programma"
+  ],
+  "Unblock %s": [
+    "Sblocca %s"
+  ],
+  "Block %s": [
+    "Blocca %s"
+  ],
+  "You’re all caught up.": [
+    "Tutto aggiornato."
+  ],
+  "%d reply": [
+    "%d risposta",
+    "%d risposte"
+  ],
+  "Open in Google Maps": [
+    "Apri in Google Maps"
+  ],
+  "Text only": [
+    "Solo testo"
+  ],
+  "Skipped": [
+    "Saltato"
+  ],
+  "Done": [
+    "Fatto"
+  ],
+  "Remove bookmark": [
+    "Rimuovi segnalibro"
+  ],
+  "Connection": [
+    "Connessione"
+  ],
+  "Delete draft": [
+    "Elimina la bozza"
+  ],
+  "Teal": [
+    "Anatra"
+  ],
+  "Slate": [
+    "Ardesia"
+  ],
+  "Red": [
+    "Rosso"
+  ],
+  "Purple": [
+    "Porpora"
+  ],
+  "Pink": [
+    "Rosa"
+  ],
+  "Orange": [
+    "Arancione"
+  ],
+  "None": [
+    "Nessuno"
+  ],
+  "Green": [
+    "Verde"
+  ],
+  "Blue": [
+    "Blu"
+  ],
+  "Remove Bookmark": [
+    "Rimuovi segnalibro"
+  ],
+  "Loading…": [
+    "caricamento..."
+  ],
+  "Bookmarks": [
+    "Segnalibri"
+  ],
+  "QR Code": [
+    "QR Code"
+  ],
+  "Connected to %s": [
+    "Connesso a %s"
+  ],
+  "Allow": [
+    "Permetti"
+  ],
+  "Show password": [
+    "Mostra password"
+  ],
+  "Scan the QR code": [
+    "Scansiona il codice QR"
+  ],
+  "Hide password": [
+    "Nascondi password"
+  ],
+  "Connect to %s": [
+    "Connetti a %s"
+  ],
+  "Read more": [
+    "Continua a leggere"
+  ],
+  "Add another": [
+    "Aggiungi un altro"
+  ],
+  "Sort by": [
+    "Ordina per:"
+  ],
+  "Select all": [
+    "Seleziona tutto"
+  ],
+  "Others": [
+    "Altre"
+  ],
+  "Oldest": [
+    "Il meno recente"
+  ],
+  "Newest": [
+    "Il più recente"
+  ],
+  "Last week": [
+    "Scorsa settimana"
+  ],
+  "Download": [
+    "Scarica"
+  ],
+  "Docs": [
+    "Documentazione"
+  ],
+  "Delete…": [
+    "Elimina"
+  ],
+  "Copy Link": [
+    "Copia link"
+  ],
+  "All": [
+    "Tutti"
+  ],
+  "%d selected": [
+    "%d articolo/i selezionato/i",
+    "%d articolo/i selezionato/i"
+  ],
+  "Remove Photo": [
+    "Rimuovi foto"
+  ],
+  "Merge options": [
+    "Unsci opzioni"
+  ],
+  "Question": [
+    "Domanda"
+  ],
+  "Poll": [
+    "Sondaggio"
+  ],
+  "Option %d": [
+    "Opzione %d"
+  ],
+  "New Poll": [
+    "Nuovo Sondaggio"
+  ],
+  "Keep editing": [
+    "Continua a modificare"
+  ],
+  "Discard": [
+    "Scarta"
+  ],
+  "Create Poll": [
+    "Crea Sondaggio"
+  ],
+  "+%d more": [
+    "Altri %d"
+  ],
+  "Suggested": [
+    "Suggerito"
+  ],
+  "Select": [
+    "Menù a tendina"
+  ],
+  "Search results": [
+    "Risultati della ricerca"
+  ],
+  "Get Started": [
+    "Comincia ora"
+  ],
+  "Default": [
+    "Predefinito"
+  ],
+  "Try again": [
+    "Riprova"
+  ],
+  "OK": [
+    "OK"
+  ],
+  "Account %s": [
+    "Account %s"
+  ],
+  "required": [
+    "obbligatorio"
+  ],
+  "messages": [
+    "messaggi"
+  ],
+  "Zoom out": [
+    "Modalità vista allargata"
+  ],
+  "Zoom in": [
+    "Ingrandisci"
+  ],
+  "Zoom Out": [
+    "Modalità vista allargata"
+  ],
+  "Zoom In": [
+    "Zoom avanti"
+  ],
+  "Zoom": [
+    "Zoom"
+  ],
+  "You": [
+    "Tu"
+  ],
+  "Yesterday": [
+    "Ieri"
+  ],
+  "Yes": [
+    "Sì"
+  ],
+  "Website": [
+    "Sito"
+  ],
+  "View changelog": [
+    "Visualizza log delle modifiche"
+  ],
+  "View Profile": [
+    "Visualizza il profilo"
+  ],
+  "View": [
+    "Vedi"
+  ],
+  "Videos": [
+    "Video"
+  ],
+  "Verified": [
+    "Verificato"
+  ],
+  "Verification cancelled": [
+    "Verifica annullata"
+  ],
+  "Username": [
+    "Nome utente"
+  ],
+  "Upgrade to %s": [
+    "Passa a %s"
+  ],
+  "Upgrade": [
+    "Aggiorna"
+  ],
+  "Update Available": [
+    "Aggiornamento disponibile"
+  ],
+  "Unset": [
+    "Non impostato"
+  ],
+  "Unread": [
+    "Non letti"
+  ],
+  "Unlock": [
+    "Sblocca"
+  ],
+  "Unknown error": [
+    "Errore sconosciuto"
+  ],
+  "Undo": [
+    "Annulla azione"
+  ],
+  "Try Again": [
+    "Riprova"
+  ],
+  "Tomorrow at %s": [
+    "Domani alle %s"
+  ],
+  "Tomorrow": [
+    "Domani"
+  ],
+  "Toggle sidebar": [
+    "Attiva barra laterale"
+  ],
+  "Today at %s": [
+    "Oggi alle %s"
+  ],
+  "Today": [
+    "Oggi"
+  ],
+  "Title": [
+    "Titolo"
+  ],
+  "Time period": [
+    "Periodo di tempo"
+  ],
+  "Time Format": [
+    "Formato ora"
+  ],
+  "This week": [
+    "Questa settimana"
+  ],
+  "This field is required": [
+    "Campo obbligatorio"
+  ],
+  "Theme": [
+    "Tema"
+  ],
+  "Text": [
+    "Testo"
+  ],
+  "Syncing your data": [
+    "Sincronizzazione dei dati"
+  ],
+  "Suggestions": [
+    "Suggerimenti"
+  ],
+  "Subscribe": [
+    "Abbonati"
+  ],
+  "Submit": [
+    "Invia"
+  ],
+  "Strikethrough": [
+    "Barrato"
+  ],
+  "Storage": [
+    "Spazio di archiviazione"
+  ],
+  "Start a new chat": [
+    "Avvia una nuova chat"
+  ],
+  "Start Over": [
+    "Riparti da zero"
+  ],
+  "Source:": [
+    "Origine: "
+  ],
+  "Something went wrong:": [
+    "Qualcosa è andata storto:"
+  ],
+  "Someone": [
+    "Qualcuno"
+  ],
+  "Show sidebar": [
+    "Mostra barra laterale"
+  ],
+  "Show more results": [
+    "Mostra più opzioni"
+  ],
+  "Show more": [
+    "Mostra di più"
+  ],
+  "Show menu": [
+    "Mostra menu"
+  ],
+  "Show less": [
+    "Mostra di meno"
+  ],
+  "Show all": [
+    "Mostra tutti"
+  ],
+  "Show": [
+    "Visualizza"
+  ],
+  "Settings": [
+    "Impostazioni"
+  ],
+  "Sent": [
+    "Inviate"
+  ],
+  "Sending...": [
+    "Invio..."
+  ],
+  "Send later": [
+    "Invia più tardi"
+  ],
+  "Send invite": [
+    "Spedisci Invito"
+  ],
+  "Send feedback": [
+    "Invia il feedback"
+  ],
+  "Send Message": [
+    "Invia messaggio"
+  ],
+  "Send Feedback": [
+    "Invia feedback"
+  ],
+  "Send": [
+    "Invia"
+  ],
+  "Selected": [
+    "Selezionato"
+  ],
+  "Select...": [
+    "Seleziona ..."
+  ],
+  "Secret": [
+    "Chiave segreta"
+  ],
+  "Search…": [
+    "Cerca…"
+  ],
+  "Searching...": [
+    "Ricerca in corso..."
+  ],
+  "Search...": [
+    "Cerca..."
+  ],
+  "Search Settings": [
+    "Cerca nelle impostazioni"
+  ],
+  "Search": [
+    "Cerca"
+  ],
+  "Save": [
+    "Salva"
+  ],
+  "Revoke": [
+    "Revoca"
+  ],
+  "Retry": [
+    "Riprova"
+  ],
+  "Restart": [
+    "Riavvia"
+  ],
+  "Reset": [
+    "Reimposta"
+  ],
+  "Reschedule": [
+    "Ripianifica"
+  ],
+  "Requests": [
+    "Richieste"
+  ],
+  "Remove from Group": [
+    "Rimuovi dal gruppo"
+  ],
+  "Remove Attachment": [
+    "Rimuovi allegato"
+  ],
+  "Remove %s": [
+    "Rimuovi %s"
+  ],
+  "Remove": [
+    "Rimuovi"
+  ],
+  "Reminders": [
+    "Promemoria"
+  ],
+  "Remind me later": [
+    "Ricordamelo più tardi"
+  ],
+  "Reconnect": [
+    "Riconnetti"
+  ],
+  "Recent searches": [
+    "Ricerche recenti"
+  ],
+  "Queued": [
+    "In coda"
+  ],
+  "Profile": [
+    "Profilo"
+  ],
+  "Privacy": [
+    "Privacy"
+  ],
+  "Priority Support": [
+    "Supporto prioritario"
+  ],
+  "Previous Page": [
+    "Pagina Precedente"
+  ],
+  "Preferences": [
+    "Preferenze"
+  ],
+  "Please enter a valid username.": [
+    "Inserisci un nome utente valido."
+  ],
+  "Please enter a valid phone number": [
+    "Si prega di inserire un numero di telefono valido"
+  ],
+  "Please enter a valid email address": [
+    "Inserisci un indirizzo e-mail valido"
+  ],
+  "Please enter a valid URL": [
+    "Inserisci un URL valido"
+  ],
+  "Phone": [
+    "Telefono"
+  ],
+  "PDF": [
+    "PDF"
+  ],
+  "Options": [
+    "Opzioni"
+  ],
+  "Open settings": [
+    "Apri le impostazioni"
+  ],
+  "Open in %s": [
+    "Apri in %s"
+  ],
+  "Open %s": [
+    "%s aperto"
+  ],
+  "Open": [
+    "Apri"
+  ],
+  "Offline": [
+    "Offline"
+  ],
+  "Numbered List": [
+    "Elenco numerato"
+  ],
+  "Notifications": [
+    "Notifiche"
+  ],
+  "Nothing here": [
+    "Non è stato trovato niente"
+  ],
+  "No results found": [
+    "Nessun risultato trovato."
+  ],
+  "No results": [
+    "Nessun risultato."
+  ],
+  "No devices found": [
+    "Nessun dispositivo trovato"
+  ],
+  "Next Page": [
+    "Pagina successiva"
+  ],
+  "New Group": [
+    "Nuovo gruppo"
+  ],
+  "New Email": [
+    "Nuova email"
+  ],
+  "Name (optional)": [
+    "Nome (opzionale)"
+  ],
+  "Name": [
+    "Nome"
+  ],
+  "Muted": [
+    "Silenzioso"
+  ],
+  "More options": [
+    "Altre opzioni"
+  ],
+  "More Options": [
+    "Altre opzioni"
+  ],
+  "Messages": [
+    "Messaggi"
+  ],
+  "Members": [
+    "Membri"
+  ],
+  "Media": [
+    "Elementi multimediali"
+  ],
+  "Manage Subscription": [
+    "Gestisci abbonamento"
+  ],
+  "Manage": [
+    "Gestisci"
+  ],
+  "Logout": [
+    "Disconnetti"
+  ],
+  "Location": [
+    "Posizione"
+  ],
+  "Loading...": [
+    "Caricamento..."
+  ],
+  "Links": [
+    "Link"
+  ],
+  "Leave": [
+    "Abbandona"
+  ],
+  "Learn more": [
+    "Scopri di più"
+  ],
+  "Last name": [
+    "Cognome"
+  ],
+  "Last hour": [
+    "Ultima ora"
+  ],
+  "Last Used": [
+    "Ultimo utilizzo"
+  ],
+  "Last 30 days": [
+    "Ultimi 30 giorni"
+  ],
+  "Labels": [
+    "Etichette"
+  ],
+  "Keyboard Shortcuts": [
+    "Scorciatoie da tastiera"
+  ],
+  "Join": [
+    "Iscriviti"
+  ],
+  "Italic": [
+    "Corsivo"
+  ],
+  "Integrations": [
+    "Integrazioni"
+  ],
+  "Immediately": [
+    "Immediatamente"
+  ],
+  "Images": [
+    "Immagini"
+  ],
+  "How to use": [
+    "Come si usa"
+  ],
+  "Hidden": [
+    "Nascosto"
+  ],
+  "Help": [
+    "Aiuto"
+  ],
+  "Groups": [
+    "Gruppi"
+  ],
+  "Global": [
+    "Globale"
+  ],
+  "Get the app": [
+    "Scarica l'app"
+  ],
+  "General": [
+    "Generale"
+  ],
+  "GIF": [
+    "GIF"
+  ],
+  "Fullscreen": [
+    "Schermo intero"
+  ],
+  "Font size": [
+    "Dimensione del font"
+  ],
+  "Font Size": [
+    "Dimensione font"
+  ],
+  "First name": [
+    "Nome"
+  ],
+  "Filter by type": [
+    "Filtra per tipo"
+  ],
+  "Filter": [
+    "Filtro"
+  ],
+  "Files": [
+    "File"
+  ],
+  "Expires in": [
+    "Scade tra"
+  ],
+  "Expand": [
+    "Espandi"
+  ],
+  "Exit Fullscreen": [
+    "Esci da modalità schermo intero"
+  ],
+  "Error: %(message)s": [
+    "Errore: %(message)s"
+  ],
+  "Error Details": [
+    "Dettagli dell'errore"
+  ],
+  "Error": [
+    "Errore!"
+  ],
+  "Enter phone number": [
+    "Inserisci il numero di telefono"
+  ],
+  "Enabled": [
+    "Abilitato"
+  ],
+  "Enable": [
+    "Abilita"
+  ],
+  "Email": [
+    "E-mail"
+  ],
+  "Edit Group": [
+    "Modifica gruppo"
+  ],
+  "Edit": [
+    "Modifica"
+  ],
+  "Drafts": [
+    "Bozze"
+  ],
+  "Downloading...": [
+    "Download in corso..."
+  ],
+  "Downloading %s": [
+    "Scaricamento di %s"
+  ],
+  "Download failed: %s": [
+    "Scaricamento non riuscito: %s"
+  ],
+  "Document": [
+    "Documento"
+  ],
+  "Do Nothing": [
+    "Non fare niente"
+  ],
+  "Display Options": [
+    "Opzioni di visualizzazione"
+  ],
+  "Dismiss": [
+    "Ignora"
+  ],
+  "Disconnected": [
+    "Disconnesso"
+  ],
+  "Disconnect": [
+    "Disconnetti"
+  ],
+  "Disabled": [
+    "Disabilitato"
+  ],
+  "Disable": [
+    "Disabilita"
+  ],
+  "Devices": [
+    "Dispositivi"
+  ],
+  "Developer": [
+    "Sviluppatore "
+  ],
+  "Delivered": [
+    "Consegnata"
+  ],
+  "Delete account": [
+    "Elimina account"
+  ],
+  "Delete Chat": [
+    "Elimina chat"
+  ],
+  "Delete %s": [
+    "Elimina %s"
+  ],
+  "Delete": [
+    "Elimina"
+  ],
+  "Delay": [
+    "Ritardo"
+  ],
+  "Defaults": [
+    "Predefiniti"
+  ],
+  "Decline": [
+    "Rifiuta"
+  ],
+  "Custom CSS": [
+    "CSS personalizzato"
+  ],
+  "Creating...": [
+    "Creazione in corso..."
+  ],
+  "Created:": [
+    "Creato:"
+  ],
+  "Copy Error": [
+    "Copia l'errore"
+  ],
+  "Copy %s": [
+    "Copia %s"
+  ],
+  "Copy": [
+    "Copia"
+  ],
+  "Copied!": [
+    "Copiato!"
+  ],
+  "Copied to clipboard!": [
+    "Copiato negli appunti!"
+  ],
+  "Copied": [
+    "Copiato"
+  ],
+  "Continue": [
+    "Continua"
+  ],
+  "Contact Support": [
+    "Contatta il supporto"
+  ],
+  "Contact": [
+    "Contatti"
+  ],
+  "Connections": [
+    "Connessioni"
+  ],
+  "Connected": [
+    "Connesso"
+  ],
+  "Connect %s": [
+    "Connetti %s"
+  ],
+  "Connect": [
+    "Connetti"
+  ],
+  "Confirm": [
+    "Conferma"
+  ],
+  "Color %d": [
+    "Colore %d"
+  ],
+  "Collapse": [
+    "Riduci"
+  ],
+  "Code Block": [
+    "Blocco codice"
+  ],
+  "Close Window": [
+    "Chiudi finestra"
+  ],
+  "Close": [
+    "Chiudi"
+  ],
+  "Clear all filters": [
+    "Cancella tutti i filtri"
+  ],
+  "Clear Cache": [
+    "Cancella cache"
+  ],
+  "Clear": [
+    "Cancella"
+  ],
+  "Check your email": [
+    "Controlla la tua e-mail"
+  ],
+  "Chats": [
+    "Chat"
+  ],
+  "Changelog": [
+    "Log delle modifiche"
+  ],
+  "Change Email": [
+    "Cambia email"
+  ],
+  "button label\u0004Cancel": [
+    "Annulla"
+  ],
+  "Cancel": [
+    "Annulla"
+  ],
+  "Cache": [
+    "Cache"
+  ],
+  "Bridges": [
+    "Ponti"
+  ],
+  "Bold": [
+    "Grassetto"
+  ],
+  "Blockquote": [
+    "Citazione"
+  ],
+  "Back": [
+    "Indietro"
+  ],
+  "Audio": [
+    "Audio"
+  ],
+  "Attachment": [
+    "Allegato"
+  ],
+  "Attach file": [
+    "Allega file"
+  ],
+  "Are you sure you want to leave %s?": [
+    "Vuoi davvero lasciare %s?"
+  ],
+  "Are you sure you want to delete this reply?": [
+    "Vuoi davvero eliminare questa risposta?"
+  ],
+  "Archived": [
+    "Archiviato"
+  ],
+  "Approve": [
+    "Approva"
+  ],
+  "Appearance": [
+    "Aspetto"
+  ],
+  "App": [
+    "App"
+  ],
+  "Always": [
+    "Sempre"
+  ],
+  "Advanced": [
+    "Avanzato"
+  ],
+  "Add to contacts": [
+    "Aggiungi ai contatti"
+  ],
+  "Add members": [
+    "Aggiungi membri"
+  ],
+  "Add a description": [
+    "Aggiungi una descrizione..."
+  ],
+  "Add Members": [
+    "Aggiungi membri"
+  ],
+  "Add Link": [
+    "Aggiungi link"
+  ],
+  "Add": [
+    "Aggiungi"
+  ],
+  "Accounts": [
+    "Account"
+  ],
+  "Account settings": [
+    "Impostazioni account"
+  ],
+  "Account Disabled": [
+    "Account disabilitato"
+  ],
+  "Account": [
+    "Account"
+  ],
+  "Accept": [
+    "Accetta"
+  ],
+  "About %s": [
+    "Informazioni su %s"
+  ],
+  "About": [
+    "Informazioni"
+  ],
+  "AI": [
+    "IA"
+  ],
+  "30 days": [
+    "30 giorni"
+  ],
+  "1 hour": [
+    "1 ora"
+  ],
+  "1 day": [
+    "1 giorno"
+  ],
+  "%s logo": [
+    "Logo di %s"
+  ],
+  "%d year": [
+    "%d anno",
+    "%d anni"
+  ],
+  "%d second": [
+    "%d secondo",
+    "%d secondi"
+  ],
+  "%d ms": [
+    "%d ms"
+  ],
+  "%d month": [
+    "%d mese",
+    "%d mesi"
+  ],
+  "%d minute": [
+    "%d minuto",
+    "%d minuti"
+  ],
+  "%d hour": [
+    "%d ora",
+    "%d ore"
+  ],
+  "%d day": [
+    "%d giorno",
+    "%d giorni"
+  ],
+  "%1$s at %2$s": [
+    "%1$s alle %2$s"
+  ],
+  "App language": [
+    "Lingua dell'app"
+  ],
+  "App language will change after relaunch": [
+    "La lingua dell'app cambierÃ  dopo il riavvio"
+  ],
+  "Relaunch app": [
+    "Riavvia app"
+  ],
+  "These settings are for Beeper and aren't synced to the messaging platforms.": [
+    "Queste impostazioni sono per Beeper e non vengono sincronizzate con le piattaforme di messaggistica."
+  ],
+  "Incognito mode": [
+    "ModalitÃ  in incognito"
+  ],
+  "Incognito mode keeps chats unread even when you click on them and doesn't notify recipients you've read them. Respond or hit ⌘ ⇧ U to mark a chat as read.": [
+    "La modalitÃ  in incognito mantiene le chat non lette anche quando le apri e non notifica ai destinatari la lettura. Rispondi o premi ⌘ ⇧ U per segnare la chat come letta."
+  ],
+  "Requires a paid subscription.": [
+    "Richiede un abbonamento a pagamento."
+  ],
+  "Show recipients I'm typing": [
+    "Mostra ai destinatari quando sto scrivendo"
+  ],
+  "Default for remind later": [
+    "Predefinito per ricorda piÃ¹ tardi"
+  ],
+  "Archive after setting reminder on chat": [
+    "Archivia dopo aver impostato un promemoria sulla chat"
+  ],
+  "Mark unread chats as read on archive": [
+    "Segna come lette le chat archiviate"
+  ],
+  "After archive": [
+    "Dopo l'archiviazione"
+  ],
+  "Select next chat": [
+    "Seleziona la chat successiva"
+  ],
+  "Select next thread": [
+    "Seleziona il thread successivo"
+  ],
+  "Archive all chats older than": [
+    "Archivia tutte le chat piÃ¹ vecchie di"
+  ],
+  "Archive %d chats": [
+    "Archivia %d chat",
+    "Archivia %d chat"
+  ],
+  "Hotkeys": [
+    "Scorciatoie da tastiera"
+  ],
+  "Archive": [
+    "Archivia"
+  ],
+  "Unarchive": [
+    "Estrai dall'archivio"
+  ],
+  "Inbox": [
+    "Posta in arrivo"
+  ],
+  "Low Priority": [
+    "Bassa prioritÃ "
+  ],
+  "Pinned": [
+    "Fissate in alto"
+  ],
+  "Mark as Read": [
+    "Segna come letto"
+  ],
+  "Mark as Unread": [
+    "Segna come non letto"
+  ],
+  "Mute": [
+    "Silenzia"
+  ],
+  "Unmute": [
+    "Riattiva notifiche"
+  ],
+  "Start New Chat": [
+    "Inizia nuova chat"
+  ],
+  "Reply": [
+    "Rispondi"
+  ],
+  "Forward": [
+    "Inoltra"
+  ],
+  "Share": [
+    "Condividi"
+  ],
+  "Translate": [
+    "Traduci"
+  ],
+  "Translate selected messages": [
+    "Traduci i messaggi selezionati"
+  ],
+  "Translate selected messages with AI": [
+    "Traduci i messaggi selezionati con l'IA"
+  ],
+  "System": [
+    "Sistema"
+  ],
+  "English": [
+    "Inglese"
+  ],
+  "Italian": [
+    "Italiano"
+  ],
+  "German": [
+    "Tedesco"
+  ],
+  "Spanish": [
+    "Spagnolo"
+  ],
+  "French": [
+    "Francese"
+  ],
+  "Japanese": [
+    "Giapponese"
+  ],
+  "Portuguese (Brazil)": [
+    "Portoghese (Brasile)"
+  ],
+  "Add Account": [
+    "Aggiungi account"
+  ],
+  "Account Settings...": [
+    "Impostazioni account..."
+  ],
+  "Account Settings…": [
+    "Impostazioni account…"
+  ],
+  "Accounts…": [
+    "Account…"
+  ],
+  "Accept group invitation": [
+    "Accetta invito al gruppo"
+  ],
+  "Accept message request": [
+    "Accetta richiesta di messaggio"
+  ],
+  "Active Hours": [
+    "Orari di attivitÃ "
+  ],
+  "3 days": [
+    "3 giorni"
+  ],
+  "1 week": [
+    "1 settimana"
+  ],
+  "1 month": [
+    "1 mese"
+  ],
+  "Light": [
+    "Chiaro"
+  ],
+  "Dark": [
+    "Scuro"
+  ],
+  "Sound": [
+    "Suono"
+  ],
+  "Sounds": [
+    "Suoni"
+  ],
+  "Typing...": [
+    "Sta scrivendo..."
+  ],
+  "Online": [
+    "Online"
+  ],
+  "Version": [
+    "Versione"
+  ],
+  "Check for Updates": [
+    "Verifica aggiornamenti"
+  ],
+  "Log Out": [
+    "Disconnetti"
+  ],
+  "Log in": [
+    "Accedi"
+  ],
+  "Sign in": [
+    "Accedi"
+  ],
+  "Connecting...": [
+    "Connessione in corso..."
+  ],
+  "Draft": [
+    "Bozza"
+  ],
+  "%d Chat": [
+    "%d chat",
+    "%d chat"
+  ],
+  "%d chat": [
+    "%d chat",
+    "%d chat"
+  ],
+  "%d Message": [
+    "%d messaggio",
+    "%d messaggi"
+  ],
+  "%d message": [
+    "%d messaggio",
+    "%d messaggi"
+  ],
+  "%d Account": [
+    "%d account",
+    "%d account"
+  ],
+  "%d account": [
+    "%d account",
+    "%d account"
+  ],
+  "%d unread thread": [
+    "%d conversazione non letta",
+    "%d conversazioni non lette"
+  ],
+  "%d unread reply": [
+    "%d risposta non letta",
+    "%d risposte non lette"
+  ]
+}
